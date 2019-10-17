@@ -1,0 +1,26 @@
+PODS:
+  - ConVerto (1.0.1)
+  - Realm (3.19.0):
+    - Realm/Headers (= 3.19.0)
+  - Realm/Headers (3.19.0)
+  - RealmSwift (3.19.0):
+    - Realm (= 3.19.0)
+
+DEPENDENCIES:
+  - ConVerto
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - ConVerto
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  ConVerto: e15bcf4a0bee88e613b7fe51f036f3dbefe574d0
+  Realm: 995d585bcf699aaff226715886c849a29dd3d07f
+  RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
+
+PODFILE CHECKSUM: c4db80a83cad4fe5b32257704e4f3237cd618ec9
+
+COCOAPODS: 1.8.3
