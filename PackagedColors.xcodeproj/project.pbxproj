@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202C388F235810DE00E75570 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 202C388E235810DE00E75570 /* RealmSwift */; };
+		202C38922358121000E75570 /* ConVerto in Frameworks */ = {isa = PBXBuildFile; productRef = 202C38912358121000E75570 /* ConVerto */; };
 		206708CA23556D1E00E56D1E /* FavColorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206708C923556D1E00E56D1E /* FavColorEntity.swift */; };
 		206708CC235572CC00E56D1E /* RealmExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206708CB235572CC00E56D1E /* RealmExtensions.swift */; };
 		206708CE2356BBA300E56D1E /* Onboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206708CD2356BBA300E56D1E /* Onboardable.swift */; };
+		206B3B1A23580B28004B0A57 /* Combinable in Frameworks */ = {isa = PBXBuildFile; productRef = 206B3B1923580B28004B0A57 /* Combinable */; };
 		20CE1B7A23555F5600F2E90F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1B7923555F5600F2E90F /* AppDelegate.swift */; };
 		20CE1B7C23555F5600F2E90F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1B7B23555F5600F2E90F /* SceneDelegate.swift */; };
 		20CE1B8123555F5600F2E90F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CE1B7F23555F5600F2E90F /* Main.storyboard */; };
@@ -29,14 +32,13 @@
 		20CE1BA82355622800F2E90F /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1BA72355622700F2E90F /* ColorController.swift */; };
 		20CE1BAA2355622E00F2E90F /* ColorSaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1BA92355622E00F2E90F /* ColorSaveController.swift */; };
 		20CE1BAC2355623300F2E90F /* ColorEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1BAB2355623300F2E90F /* ColorEditController.swift */; };
-		20CE1BAE235562E800F2E90F /* Combinable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE1BAD235562E800F2E90F /* Combinable.swift */; };
-		38C2FD3BF7F5AAFA70ED3813 /* Pods_PackagedColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BC804221B6741390FAC92D /* Pods_PackagedColors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		206708C923556D1E00E56D1E /* FavColorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavColorEntity.swift; sourceTree = "<group>"; };
 		206708CB235572CC00E56D1E /* RealmExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtensions.swift; sourceTree = "<group>"; };
 		206708CD2356BBA300E56D1E /* Onboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboardable.swift; sourceTree = "<group>"; };
+		206B3B1823580831004B0A57 /* Combinable */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Combinable; path = ../../../Desktop/Combinable; sourceTree = "<group>"; };
 		20CE1B7623555F5600F2E90F /* PackagedColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackagedColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CE1B7923555F5600F2E90F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20CE1B7B23555F5600F2E90F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +60,6 @@
 		20CE1BA72355622700F2E90F /* ColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
 		20CE1BA92355622E00F2E90F /* ColorSaveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSaveController.swift; sourceTree = "<group>"; };
 		20CE1BAB2355623300F2E90F /* ColorEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorEditController.swift; sourceTree = "<group>"; };
-		20CE1BAD235562E800F2E90F /* Combinable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinable.swift; sourceTree = "<group>"; };
-		43C16E7B64833E55268175B3 /* Pods-PackagedColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PackagedColors.debug.xcconfig"; path = "Target Support Files/Pods-PackagedColors/Pods-PackagedColors.debug.xcconfig"; sourceTree = "<group>"; };
-		B7B88B9EABA61CD1F9136B0C /* Pods-PackagedColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PackagedColors.release.xcconfig"; path = "Target Support Files/Pods-PackagedColors/Pods-PackagedColors.release.xcconfig"; sourceTree = "<group>"; };
-		D4BC804221B6741390FAC92D /* Pods_PackagedColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PackagedColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C2FD3BF7F5AAFA70ED3813 /* Pods_PackagedColors.framework in Frameworks */,
+				202C38922358121000E75570 /* ConVerto in Frameworks */,
+				202C388F235810DE00E75570 /* RealmSwift in Frameworks */,
+				206B3B1A23580B28004B0A57 /* Combinable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +90,9 @@
 		20CE1B6D23555F5600F2E90F = {
 			isa = PBXGroup;
 			children = (
+				206B3B1823580831004B0A57 /* Combinable */,
 				20CE1B7823555F5600F2E90F /* PackagedColors */,
 				20CE1B7723555F5600F2E90F /* Products */,
-				B3FC7F7E62D187895D82F710 /* Pods */,
 				54C2B9DA03DB760EA48C7F9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 		20CE1B8D2355610500F2E90F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				20CE1BAD235562E800F2E90F /* Combinable.swift */,
 				20CE1B9A2355617F00F2E90F /* CombinableExtensions.swift */,
 				20CE1B962355616B00F2E90F /* TextFieldHandler.swift */,
 				20CE1B942355616000F2E90F /* PropertyWrappers.swift */,
@@ -168,18 +167,8 @@
 		54C2B9DA03DB760EA48C7F9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4BC804221B6741390FAC92D /* Pods_PackagedColors.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B3FC7F7E62D187895D82F710 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				43C16E7B64833E55268175B3 /* Pods-PackagedColors.debug.xcconfig */,
-				B7B88B9EABA61CD1F9136B0C /* Pods-PackagedColors.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,17 +178,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CE1B8A23555F5700F2E90F /* Build configuration list for PBXNativeTarget "PackagedColors" */;
 			buildPhases = (
-				D465D8337AE0AB09F6BDC929 /* [CP] Check Pods Manifest.lock */,
 				20CE1B7223555F5600F2E90F /* Sources */,
 				20CE1B7323555F5600F2E90F /* Frameworks */,
 				20CE1B7423555F5600F2E90F /* Resources */,
-				DE2AF030F2430147AABF506A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PackagedColors;
+			packageProductDependencies = (
+				206B3B1923580B28004B0A57 /* Combinable */,
+				202C388E235810DE00E75570 /* RealmSwift */,
+				202C38912358121000E75570 /* ConVerto */,
+			);
 			productName = PackagedColors;
 			productReference = 20CE1B7623555F5600F2E90F /* PackagedColors.app */;
 			productType = "com.apple.product-type.application";
@@ -228,6 +220,10 @@
 				Base,
 			);
 			mainGroup = 20CE1B6D23555F5600F2E90F;
+			packageReferences = (
+				202C388D235810DE00E75570 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				202C38902358121000E75570 /* XCRemoteSwiftPackageReference "ConVerto" */,
+			);
 			productRefGroup = 20CE1B7723555F5600F2E90F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,48 +247,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D465D8337AE0AB09F6BDC929 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PackagedColors-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE2AF030F2430147AABF506A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PackagedColors/Pods-PackagedColors-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PackagedColors/Pods-PackagedColors-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PackagedColors/Pods-PackagedColors-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		20CE1B7223555F5600F2E90F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,7 +261,6 @@
 				20CE1B9F235561E600F2E90F /* ColorFavCell.swift in Sources */,
 				206708CC235572CC00E56D1E /* RealmExtensions.swift in Sources */,
 				20CE1B932355615400F2E90F /* Fonts.swift in Sources */,
-				20CE1BAE235562E800F2E90F /* Combinable.swift in Sources */,
 				20CE1B992355617900F2E90F /* AppMemory.swift in Sources */,
 				20CE1BAA2355622E00F2E90F /* ColorSaveController.swift in Sources */,
 				206708CE2356BBA300E56D1E /* Onboardable.swift in Sources */,
@@ -458,7 +411,6 @@
 		};
 		20CE1B8B23555F5700F2E90F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C16E7B64833E55268175B3 /* Pods-PackagedColors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,7 +429,6 @@
 		};
 		20CE1B8C23555F5700F2E90F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7B88B9EABA61CD1F9136B0C /* Pods-PackagedColors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +467,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		202C388D235810DE00E75570 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.19.0;
+			};
+		};
+		202C38902358121000E75570 /* XCRemoteSwiftPackageReference "ConVerto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/enuance/ConVerto";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		202C388E235810DE00E75570 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 202C388D235810DE00E75570 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		202C38912358121000E75570 /* ConVerto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 202C38902358121000E75570 /* XCRemoteSwiftPackageReference "ConVerto" */;
+			productName = ConVerto;
+		};
+		206B3B1923580B28004B0A57 /* Combinable */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Combinable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20CE1B6E23555F5600F2E90F /* Project object */;
 }

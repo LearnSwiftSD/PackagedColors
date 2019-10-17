@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Combinable
 
 // These extensions provide the inputs for `Combinable` types
 
